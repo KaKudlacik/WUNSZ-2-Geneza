@@ -1,9 +1,5 @@
 Celem projektu jest stowrzenie multiplayerowej wersji popularnej gry Snake, w postaci aplikacji koputerowej. 
 Gra będzie przeznaczona dla dwóch graczy, którzy będą grali ze sobą na jednej planszy. Komunikacja między graczamy będzie odbywała sie przez sieć. 
-Zasady działania gry będą proste. Gracze bedą mieli do dyspozycji jednego z dwóch dostępnych węży, które będą poruszały sie po planszy za pomocą sterowania strzałkami na klawiaturze. Punkty gracz może uzyskać poprzez "zjadanie" za pomocą węża punktów wyświetlanych w losowych miejscach na planszy. Wygrywa ten gracz, który dłużej utrzyma się na planszy bez zderzenia ze ściankami planszy, drugim użytkownikiem lub samym sobą. 
-Dodatkowo gra:
-                  - będzie zawierała aktualną punktację dla obu graczy,
-                  - czas trwania rozgrywki,
-                  - będzie wyświetlała aktualny poziom trudności (poziom trudności będzie z czasem zwiększany),
-                  - listę dostępnych znajomych w sieci lokalnej,
-                  - najlepszy wynik wraz z czasem.
+Zasady działania gry będą proste. Gracze bedą mieli do dyspozycji jednego z dwóch dostępnych węży, które będą poruszały sie po planszy za pomocą sterowania strzałkami na klawiaturze. W losowych miejscach na planszy będą pojawiały sie punkty, które po "zjedzeniu" przez gracza będą powodowały, że będzie on coraz więszy. Gracz, który jako pierwszy uderzy w ścianki planszy, siebie samego lub przeciwnika przegrywa.
+
+Gra na początku będzie zawierała menu, dzięki któremu gracze będą mogli założyć lub dołączyć do gry oraz wybrać swoje nazwy użytkownika. Podczas właściwej rozgrywki będzie wyświetlany: jej czas trwania, aktualny poziom trudności (który bedzie zwiększany wraz z czasem), oraz informację kto przeciwko komu gra. 
